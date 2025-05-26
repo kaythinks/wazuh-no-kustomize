@@ -13,6 +13,6 @@ metadata:
   name: wazuh-storage
 provisioner: rancher.io/local-path
 reclaimPolicy: Delete
-volumeBindingMode: Immediate
+volumeBindingMode: WaitForFirstConsumer
 # provisioner: k8s.io/minikube-hostpath
 # provisioner:  docker.io/hostpath
